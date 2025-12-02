@@ -1,0 +1,12 @@
+2025-12-02 10:27:51.804803-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (PADS: ""OWNER"" BIGINT NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."PADS" SET "ID"=? ,"CONTENT"=? ,"CREATED_AT"=? ,"METADATA"=? ,"OWNER"=? ,"STATUS"=? ,"TITLE"=?  WHERE "ID"=? [22018-232]
+2025-12-02 10:27:51.810132-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (PADS: ""OWNER"" BIGINT NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."PADS" SET "ID"=? ,"CONTENT"=? ,"CREATED_AT"=? ,"METADATA"=? ,"OWNER"=? ,"STATUS"=? ,"TITLE"=?  WHERE "ID"=? [22018-232]
+2025-12-02 10:44:46.222191-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PADS OWNERS [*]PADS PADS"; SQL statement:
+SELECT * FROM PADS OWNERS PADS PADS [42000-232]
+2025-12-02 10:44:49.481387-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PADS OWNERS [*]PADS PADS"; SQL statement:
+SELECT * FROM PADS OWNERS PADS PADS [42000-232]

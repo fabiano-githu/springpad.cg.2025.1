@@ -3,10 +3,17 @@
  * Folhas de estilo do template do site.
  */
 
+
 #userLoginOut img {
   width: 2rem;
   height: 2rem;
 }
+
+.footer{ background-color: white;
+}
+
+
+
 
 .footer-links ul {
   list-style: none;
@@ -55,3 +62,4 @@ footer a:hover {
 .pad-content {
     font-family: consolas, monospace;
 }
+
